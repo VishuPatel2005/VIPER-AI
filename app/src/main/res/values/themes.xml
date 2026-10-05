@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.MyAssistant" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/viper_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/viper_primary</item>
+        <item name="colorSecondaryVariant">@color/purple_accent</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/viper_surface</item>
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/viper_surface</item>
+    </style>
+
+    <style name="ViperCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/viper_card</item>
+        <item name="cardCornerRadius">22dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/viper_outline</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="ViperChip" parent="">
+        <item name="android:background">@drawable/bg_viper_chip</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:paddingVertical">6dp</item>
+    </style>
+
+    <style name="SidebarNavButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingHorizontal">8dp</item>
+    </style>
+
+    <style name="Theme.MyAssistant.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/viper_surface</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="SettingsDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/viper_outline</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:alpha">0.5</item>
+    </style>
+
+</resources>

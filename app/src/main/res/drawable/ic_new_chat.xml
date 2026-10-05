@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Speech Bubble Body -->
+    <path
+        android:strokeWidth="1.75"
+        android:strokeColor="#9B87F5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M6,5h12c1.65,0 3,1.35 3,3v6c0,1.65 -1.35,3 -3,3H9.5L6,20.5V17H6c-1.65,0 -3,-1.35 -3,-3V8c0,-1.65 1.35,-3 3,-3z" />
+
+    <!-- Compose Plus (+) -->
+    <path
+        android:strokeWidth="1.75"
+        android:strokeColor="#9B87F5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,8v4 M10,10h4" />
+
+</vector>

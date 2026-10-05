@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0B0E"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/btnCloseSettle"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="start"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        app:tint="@color/white" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivSettleFriendPhoto"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/ic_person"
+        app:shapeAppearanceOverlay="@style/CircleAppearance" />
+
+    <TextView
+        android:id="@+id/tvSettleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="You owe Friend Name"
+        android:textColor="#8E8E93"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvSettleAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="₹0"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnConfirmSettleUp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Settle Up"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="16dp"
+        app:backgroundTint="#A07CFF" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRecordCashPayment"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:text="Record cash payment"
+        android:textAllCaps="false"
+        android:textColor="#8E8E93" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMarkAsPaid"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Mark as paid"
+        android:textAllCaps="false"
+        android:textColor="#8E8E93" />
+
+</LinearLayout>

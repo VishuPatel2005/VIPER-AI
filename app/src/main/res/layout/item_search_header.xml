@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchHeaderTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="24dp"
+    android:paddingBottom="8dp"
+    android:textColor="#505050"
+    android:textSize="12sp"
+    android:textStyle="bold"
+    android:letterSpacing="0.1"
+    android:textAllCaps="true"
+    android:text="Header"
+    android:background="#0B0B0E" />

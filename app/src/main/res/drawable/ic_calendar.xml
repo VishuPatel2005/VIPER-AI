@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Outer Frame -->
+    <path
+        android:strokeWidth="1.75"
+        android:strokeColor="#9B87F5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M6,6h12c1.1,0 2,0.9 2,2v10c0,1.1 -0.9,2 -2,2H6c-1.1,0 -2,-0.9 -2,-2V8c0,-1.1 0.9,-2 2,-2z" />
+
+    <!-- Top Bar Divider -->
+    <path
+        android:strokeWidth="1.75"
+        android:strokeColor="#9B87F5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M4,10h16" />
+
+    <!-- Binding Pins -->
+    <path
+        android:strokeWidth="1.75"
+        android:strokeColor="#9B87F5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M8,3v3 M16,3v3" />
+
+    <!-- Date Grid (Dots) -->
+    <path
+        android:strokeWidth="1.75"
+        android:strokeColor="#9B87F5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M8,14h0.01 M12,14h0.01 M16,14h0.01 M8,17h0.01 M12,17h0.01" />
+
+</vector>

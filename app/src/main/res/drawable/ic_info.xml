@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Pin Outline -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="#9B87F5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,2c-3.87,0 -7,3.13 -7,7c0,5.25 7,13 7,13s7,-7.75 7,-13c0,-3.87 -3.13,-7 -7,-7z" />
+
+    <!-- Inner Point -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="#9B87F5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,9m-1.5,0a1.5,1.5 0 1 0 3,0a1.5,1.5 0 1 0 -3,0" />
+
+</vector>

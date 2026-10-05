@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_back"
+        android:tint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Add Medication"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/back_button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/save_button"
+        app:layout_constraintTop_toBottomOf="@id/title_text">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medication Name"
+            android:textColor="#8A8A8E"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_card_health"
+            android:paddingHorizontal="16dp"
+            android:textColor="@color/white"
+            android:hint="e.g. Lisinopril"
+            android:textColorHint="#44FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dosage / Type"
+            android:textColor="#8A8A8E"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_dosage"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_card_health"
+            android:paddingHorizontal="16dp"
+            android:textColor="@color/white"
+            android:hint="e.g. 10mg Tablet"
+            android:textColorHint="#44FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginEnd="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:textColor="#8A8A8E"
+                    android:layout_marginBottom="8dp" />
+                <EditText
+                    android:id="@+id/edit_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:background="@drawable/bg_card_health"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="@color/white"
+                    android:hint="08:00 AM"
+                    android:textColorHint="#44FFFFFF"
+                    android:focusable="false"
+                    android:clickable="true"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Frequency"
+                    android:textColor="#8A8A8E"
+                    android:layout_marginBottom="8dp" />
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/days_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mon" android:textColor="@color/white" />
+                        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tue" android:textColor="@color/white" />
+                        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wed" android:textColor="@color/white" />
+                        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Thu" android:textColor="@color/white" />
+                        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fri" android:textColor="@color/white" />
+                        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sat" android:textColor="@color/white" />
+                        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sun" android:textColor="@color/white" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medication Date (Optional)"
+            android:textColor="#8A8A8E"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_date"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_card_health"
+            android:paddingHorizontal="16dp"
+            android:textColor="@color/white"
+            android:hint="Select Date (e.g. Feb 28)"
+            android:textColorHint="#44FFFFFF"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/purple_accent"
+        android:text="Save Medication"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:cornerRadius="12dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

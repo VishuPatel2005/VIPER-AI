@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <!-- Authentication UI Premium Palette -->
+    <color name="auth_bg_bottom">#0F0F12</color>
+    <color name="auth_bg_top">#1A1A24</color>
+    <color name="auth_primary">#9D4EDD</color>
+    <color name="auth_primary_variant">#7B2CBF</color>
+    <color name="auth_on_primary">#FFFFFF</color>
+    <color name="auth_input_bg">#2A2A35</color>
+    <color name="auth_text_primary">#F0F0F5</color>
+    <color name="auth_text_secondary">#A0A0B0</color>
+    <color name="auth_error">#FF4D4D</color>
+    <color name="auth_social_google_bg">#F2F2F2</color>
+    <color name="auth_social_apple_bg">#FFFFFF</color>
+    <color name="auth_glass_outline">#40FFFFFF</color>
+    <color name="auth_glow">#4D9D4EDD</color>
+
+    <!-- Stitch Viper Premium Palette -->
+    <color name="viper_primary">#8B7CFF</color>
+    <color name="viper_surface">#000000</color>
+    <color name="viper_card">#17171F</color>
+    <color name="viper_outline">#38383A</color>
+    <color name="viper_secondary_container">#2C2C2E</color>
+    <color name="viper_on_surface">#FFFFFF</color>
+    <color name="viper_on_surface_variant">#8E8E93</color>
+    <color name="viper_error">#FF453A</color>
+    <color name="viper_card_bg">#17171F</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green_accent">#9D4EDD</color>
+    <color name="purple_accent">#8B7CFF</color>
+    <color name="purple_glow">#4D8B7CFF</color>
+    <color name="dark_gray">#1A1A1A</color>
+    <color name="light_gray">#666666</color>
+    <color name="text_input_hint">#999999</color>
+    <color name="period_red_bg">#3D1C1C</color>
+    <color name="period_red_text">#FF5C5C</color>
+    <color name="period_purple_bg">#25253D</color>
+    <color name="period_purple_text">#A8A8FF</color>
+    <color name="period_capsule_bg">#333333</color>
+    <color name="period_selected_day">#FFFFFF</color>
+    <color name="period_red_header">#FF6B5C</color>
+    <color name="symptoms_purple_header">#8E6CEF</color>
+
+    <!-- Health Metrics Colors -->
+    <color name="step_green">#00E676</color>
+    <color name="water_blue">#448AFF</color>
+    <color name="sleep_purple">#9061FF</color>
+
+    <color name="text_secondary">#8E8E93</color>
+    <color name="card_background">#17171F</color>
+    <color name="card_border">#38383A</color>
+    <color name="black_bg">#000000</color>
+    <color name="card_bg">#17171F</color>
+    <color name="purple_accent_dim">#338B7CFF</color>
+    <color name="red_accent">#FF453A</color>
+
+</resources>

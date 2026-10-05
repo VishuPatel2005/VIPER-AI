@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="8dp"
+    android:layout_marginEnd="8dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/friendAvatar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="2dp"
+        android:src="@drawable/ic_person"
+        app:shapeAppearanceOverlay="@style/CircleAppearance"
+        android:background="@drawable/bg_avatar_border" />
+
+    <TextView
+        android:id="@+id/friendName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sarah"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/friendDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="250m"
+        android:textColor="#808080"
+        android:textSize="10sp" />
+
+</LinearLayout>

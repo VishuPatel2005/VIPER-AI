@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Capsule Body -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="#9B87F5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M7,9h10c1.65,0 3,1.35 3,3s-1.35,3 -3,3H7c-1.65,0 -3,-1.35 -3,-3s1.35,-3 3,-3z" />
+
+    <!-- Center Divider -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="#9B87F5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M11,9l2,6" />
+
+</vector>

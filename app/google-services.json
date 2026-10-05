@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "129236180306",
+    "project_id": "ai-assistant-e4987",
+    "storage_bucket": "ai-assistant-e4987.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129236180306:android:d537756a38c1b483cd6e8b",
+        "android_client_info": {
+          "package_name": "com.rudra.myassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129236180306-ounpjucsgfguis8mjkbegp7nlh76nl4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rudra.myassistant",
+            "certificate_hash": "e73989284e48e17e3237877cb857caa02565ec57"
+          }
+        },
+        {
+          "client_id": "129236180306-momdtln8djgt3hcnmrc2fhrv6pdhsat2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX01KO_o2xJInKUm0-ZQXAKVGywygd8bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129236180306-momdtln8djgt3hcnmrc2fhrv6pdhsat2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

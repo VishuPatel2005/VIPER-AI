@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="12dp"
+    android:background="@drawable/bg_friend_item_clickable">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/reqAvatar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_person"
+        app:shapeAppearanceOverlay="@style/CircleAppearance" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/reqName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Doe"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wants to be your friend"
+            android:textColor="#8E8E93"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnAcceptReq"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_check"
+        android:padding="8dp"
+        android:background="@drawable/bg_action_circle_green"
+        app:tint="#FFFFFF"
+        android:layout_marginEnd="8dp" />
+
+    <ImageView
+        android:id="@+id/btnDeclineReq"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_close"
+        android:padding="8dp"
+        android:background="@drawable/bg_action_circle_orange"
+        app:tint="#FFFFFF"
+        android:layout_marginEnd="8dp" />
+
+    <ImageView
+        android:id="@+id/btnBlockReq"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_block"
+        android:padding="8dp"
+        android:background="@drawable/bg_action_circle_dark"
+        app:tint="#FF453A" />
+
+</LinearLayout>

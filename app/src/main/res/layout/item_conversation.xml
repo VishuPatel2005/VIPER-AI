@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Avatar Left -->
+    <FrameLayout
+        android:id="@+id/avatarContainer"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true">
+        
+        <ImageView
+            android:id="@+id/convAvatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_person"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bg_profile_button"
+            android:padding="2dp" />
+
+        <View
+            android:id="@+id/convOnlineIndicator"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/indicator_online"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="2dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <!-- Info Center -->
+    <LinearLayout
+        android:id="@+id/infoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/avatarContainer"
+        android:layout_marginStart="14dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/convName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friend Name"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp">
+
+            <!-- Delivered/Received Icon -->
+            <ImageView
+                android:id="@+id/statusIcon"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/ic_send"
+                app:tint="#00BFFF"
+                android:layout_marginEnd="6dp" />
+
+            <TextView
+                android:id="@+id/convStatusText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivered"
+                android:textColor="#00BFFF"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/convTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" • 2h"
+                android:textColor="#808080"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

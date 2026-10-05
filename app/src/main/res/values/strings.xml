@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Assistant</string>
+    <string name="greeting_text">What Can I Do for You Today?</string>
+    <string name="use_keyboard">Use Keyboard</string>
+    <string name="assistant_name">Viper</string>
+    <string name="you_button">you</string>
+    <string name="back">Back</string>
+    <string name="send">Send</string>
+    <string name="voice_search">Voice search</string>
+    <string name="default_web_client_id">129236180306-momdtln8djgt3hcnmrc2fhrv6pdhsat2.apps.googleusercontent.com</string>
+</resources>

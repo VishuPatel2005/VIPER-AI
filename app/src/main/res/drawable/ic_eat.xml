@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Fork -->
+    <path
+        android:strokeWidth="1.75"
+        android:strokeColor="#9B87F5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M7,5v3 M9,5v3 M11,5v3 M7,8c0,2.2 4,2.2 4,0 M9,10.2v8.8" />
+
+    <!-- Knife -->
+    <path
+        android:strokeWidth="1.75"
+        android:strokeColor="#9B87F5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M15,5l2,3v11h-2V5z" />
+
+</vector>
